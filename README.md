@@ -1,11 +1,11 @@
-norobo
+twilio-order-status
 ------
 
-A personal IVR server for handling:
+Example phone system for an e-commerce store
 
-- **Telemarketers & robo-calls**: These are dropped after a message asking to be removed from the list.
-- **Unscheduled calls**: Uncheduled callers are sent a [saavycal link](https://saavycal.com) via SMS.
-- **Planned or urgent calls**: These are transfered to your cell.
+- **Order status**: The customer can check the status of an order, and an email is sent to them with the tracking info.
+- **Refund request**: The customer can request a refund. They are asked for their order number, and an email is sent to them with intructions.
+- **Callbacks**: For general callbacks, the customer's number is requested and they are told the estimated callback time.
 
 ## License
 
